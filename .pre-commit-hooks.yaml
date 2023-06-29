@@ -1,0 +1,11 @@
+- id: invoke
+  name: Invoke
+  description: This hook calls any invoke task.
+  entry: invoke
+  language: python
+  pass_filenames: false
+- id: invoke-on-modified
+  name: Invoke
+  description: This hook calls any invoke task with all modified files passed in args.
+  entry: invoke
+  language: python
